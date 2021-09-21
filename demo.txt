@@ -7,3 +7,8 @@ git config --global --list
 git branch
 git remote add origin https://github.com/gougou11/test-cc.git
 git push -u origin main
+
+
+git add .
+git commit -m "xxx"
+git push -u origin main
