@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, sum;
-    printf("input two int nums\n");
-    scanf("%d,%d", &a, &b);
-    sum = a + b;
-    printf("%d+%d=%d\n", a, b, sum);
+    unsigned int a = 4294967295;
+    unsigned int b = 2;
+    unsigned int c = 4;
+
+    printf("%u\n", a + b);
+    printf("%u\n", b - c);
+
     return 0;
 }
