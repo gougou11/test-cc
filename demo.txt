@@ -12,3 +12,6 @@ git push -u origin main
 git add .
 git commit -m "xxx"
 git push -u origin main
+
+// OpenSSL SSL_read:Connection was reset, errno 10054
+git config --global http.sslVerify "false"
